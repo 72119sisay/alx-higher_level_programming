@@ -8,7 +8,7 @@ void print_python_float(PyObject *p)
 {
 	double value = 0;
 	char *string = NULL;
-	
+
 	fflush(stdout);
 	printf("[.] float object info\n");
 
@@ -54,11 +54,11 @@ void print_python_bytes(PyObject *p)
  * @p: the PyObject
  */
 void print_python_list(PyObject *p)
-{p
-	y_ssize_t size = 0;
+{
+	py_ssize_t size = 0;
 	PyObject *item;
 	int i = 0;
-	
+
 	fflush(stdout);
 	printf("[*] Python list info\n");
 	if (PyList_CheckExact(p))
