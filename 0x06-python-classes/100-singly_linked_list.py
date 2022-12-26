@@ -43,7 +43,7 @@ class Node:
 
 class SinglyLinkedList:
     """Represent a singly-linked list."""
-    
+
     def __init__(self):
         """Initalize a new SinglyLinkedList."""
         self.__head = None
