@@ -83,8 +83,8 @@ def xout(board, row, col):
         c -= 1
 
 
-    def recursive_solve(board, row, queens, solutions):
-        """Recursively solve an N-queens puzzle.
+def recursive_solve(board, row, queens, solutions):
+    """Recursively solve an N-queens puzzle.
 
     Args:
         board (list): The current working chessboard.
