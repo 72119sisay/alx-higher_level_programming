@@ -36,7 +36,7 @@ class Rectangle:
         """retrieves height attribute"""
         return self.__height
 
-    @height.setter  
+    @height.setter
     def height(self, value):
         """sets height attribute"""
         if not isinstance(value, int):
@@ -56,7 +56,7 @@ class Rectangle:
         return ((self.__width * 2) + (self.__height * 2)
 
     def __str__(self) -> str:
-        """presents a diagram of the rectangle defined for an object"""
+       """presents a diagram of the rectangle defined for an object"""
         if self.__width == 0 or self.__height == 0:
             return ("")
         rectangle = ""
